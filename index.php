@@ -32,7 +32,7 @@
     <header class="header_section">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index.php">
             <span>
               Innocanto
             </span>
@@ -63,7 +63,7 @@
             </div>
             <div id="myNav" class="overlay">
               <div class="overlay-content">
-                <a href="index.html">Home</a>
+                <a href="index.php">Home</a>
                 <a href="about.html">About</a>
                 <a href="product.html">Products</a>
                 <a href="blog.html">Blog</a>
@@ -565,11 +565,47 @@
     </div>
   </section>
 
-  <!-- end subscribe section 
+  <!-- end subscribe section -->
 
+   <!-- contact section -->
 
+  <section class="contact_section layout_padding">
+    <div class="container ">
+      <h2 class="">
+        Ask Anything
+      </h2>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-lg-6 mx-auto">
+          <form action="send.php" method="POST">
+            <div>
+              <input type="text" name="name" placeholder="Name" required/>
+            </div>
+            <div>
+              <input type="email" name="email" placeholder="Email" required/>
+            </div>
+            <!-- <div>
+              <input type="text" placeholder="Phone Number" />
+            </div> -->
+            <div>
+              <input type="text" name="message" class="message-box" placeholder="Message" />
+            </div>
+            <div class="d-flex justify-content-center">
+              <button type="submit" name="send">
+                SEND
+              </button>
+            </div>
+          </form>
+        </div>
 
-  <!-- info section 
+      </div>
+    </div>
+  </section>
+
+  <!-- end contact section -->
+
+<!-- info section -->
 
   <section class="info_section layout_padding">
     <div class="container">
@@ -579,13 +615,8 @@
         </h5>
         <div class="info_social">
           <div>
-            <a href="">
+            <a href="https://www.facebook.com/innocanto.perfume">
               <img src="images/facebook-logo-button.png" alt="">
-            </a>
-          </div>
-          <div>
-            <a href="">
-              <img src="images/twitter-logo-button.png" alt="">
             </a>
           </div>
           <div>
@@ -605,7 +636,7 @@
       <div class="row">
         <div class="col-md-3">
           <h6>
-            About FOOC
+            About Innocanto
           </h6>
           <p>
             consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation u
@@ -617,7 +648,7 @@
           </h6>
           <ul>
             <li class=" active">
-              <a class="" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="" href="index.php">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="">
               <a class="" href="about.html">About </a>
@@ -688,46 +719,7 @@
     </div>
   </section>
 
-  end info section -->
-
-   <!-- contact section -->
-
-  <section class="contact_section layout_padding">
-    <div class="container ">
-      <h2 class="">
-        Ask Anything
-      </h2>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-lg-6 mx-auto">
-          <form action="send.php" method="POST">
-            <div>
-              <input type="text" name="name" placeholder="Name" required/>
-            </div>
-            <div>
-              <input type="email" name="email" placeholder="Email" required/>
-            </div>
-            <!-- <div>
-              <input type="text" placeholder="Phone Number" />
-            </div> -->
-            <div>
-              <input type="text" name="message" class="message-box" placeholder="Message" />
-            </div>
-            <div class="d-flex justify-content-center">
-              <button type="submit" name="send">
-                SEND
-              </button>
-            </div>
-          </form>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- end contact section -->
-
+  <!-- end info section -->
 
   <!-- footer section -->
   <section class="container-fluid footer_section ">
