@@ -703,16 +703,16 @@
         <div class="col-md-8 col-lg-6 mx-auto">
           <form action="send.php" method="POST">
             <div>
-              <input type="text" name="name" placeholder="Name" />
+              <input type="text" name="name" placeholder="Name" required/>
             </div>
             <div>
-              <input type="email" name="email" placeholder="Email" />
+              <input type="email" name="email" placeholder="Email" required/>
             </div>
             <!-- <div>
               <input type="text" placeholder="Phone Number" />
             </div> -->
             <div>
-              <input type="text" class="message-box" placeholder="Message" />
+              <input type="text" name="message" class="message-box" placeholder="Message" />
             </div>
             <div class="d-flex justify-content-center">
               <button type="submit" name="send">
