@@ -285,7 +285,7 @@ a:focus {
   top: 0;
   left: 0;
   background-color: black;
-  background-color: rgba(231, 205, 32, 0.95);
+  background-color: rgba(95, 231, 32, 0.95);
   overflow-x: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
