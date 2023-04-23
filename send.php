@@ -1,7 +1,7 @@
 <?php
 
 use PHPMailer\PHPMailer\PHPMailer;
-// use PHPMailer\PHPMailer\Exception;
+use PHPMailer\PHPMailer\Exception;
 
 require 'phpmailer/src/Exception.php';
 require 'phpmailer/src/PHPMailer.php';
@@ -69,13 +69,13 @@ if(isset($_POST['send'])){
 
     $mail->send();
 
-    // echo
-    // "
-    // <script>
-    // alert('Sent Successfully');
-    // document.location.href = index.php
-    // </script>
-    // ";
+    echo
+    "
+    <script>
+    alert('Sent Successfully');
+    document.location.href = index.php
+    </script>
+    ";
 }
 ?>
 
