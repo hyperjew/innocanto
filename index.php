@@ -66,7 +66,7 @@
                 <a href="index.php">Home</a>
                 <a href="about.html">About</a>
                 <a href="product.html">Products</a>
-                <a href="blog.html">Blog</a>
+                <!-- <a href="blog.html">Blog</a> -->
                 <a href="contact.html">Contact Us</a>
               </div>
             </div>
@@ -90,7 +90,7 @@
               <h1>
                 Innocanto
               </h1>
-              <a href="">
+              <a href="about.html">
                 Read More
               </a>
             </div>
@@ -105,7 +105,7 @@
                 </div>
                 <div class="carousel-item">
                   <div class="img-box">
-                    <img src="images/innocanto.jpg" alt="">
+                    <img src="images/sliderperf.png" alt="">
                   </div>
                 </div>
                 <!-- <div class="carousel-item">
@@ -585,9 +585,6 @@
             <div>
               <input type="email" name="email" placeholder="Email" required/>
             </div>
-            <!-- <div>
-              <input type="text" placeholder="Phone Number" />
-            </div> -->
             <div>
               <input type="text" name="message" class="message-box" placeholder="Message" />
             </div>
@@ -619,11 +616,11 @@
               <img src="images/facebook-logo-button.png" alt="">
             </a>
           </div>
-          <div>
+          <!-- <div>
             <a href="">
               <img src="images/linkedin.png" alt="">
             </a>
-          </div>
+          </div> -->
           <div>
             <a href="">
               <img src="images/instagram.png" alt="">
@@ -639,7 +636,7 @@
             About Innocanto
           </h6>
           <p>
-            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation u
+          INNOCANTO Perfume is inspired by original scents. It is 100% oil based, it is proven and tested with very affordable price. INNOCANTO Perfume is perfect for any gift occasions. The owner is open for retailing/wholesale, not networking but simply buy and sell perfumes.
           </p>
         </div>
         <div class="col-md-2 offset-lg-1">
@@ -651,14 +648,14 @@
               <a class="" href="index.php">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="">
-              <a class="" href="about.html">About </a>
+              <a class="" href="about.html">About Us</a>
             </li>
             <li class="">
               <a class="" href="product.html">Products </a>
             </li>
-            <li class="">
+            <!-- <li class="">
               <a class="" href="blog.html">Blog </a>
-            </li>
+            </li> -->
             <li class="">
               <a class="" href="contact.html">Contact Us</a>
             </li>
@@ -671,27 +668,27 @@
           <ul>
             <li>
               <a href="">
-                Adipiscing
+                Link
               </a>
             </li>
             <li>
               <a href="">
-                Elit, sed
+                Link
               </a>
             </li>
             <li>
               <a href="">
-                do Eiusmod
+                Link
               </a>
             </li>
             <li>
               <a href="">
-                Tempor
+                Link
               </a>
             </li>
             <li>
               <a href="">
-                incididunt
+                Link
               </a>
             </li>
           </ul>
@@ -711,7 +708,7 @@
             </a>
             <a href="">
               <img src="images/mail-white.png" alt="">
-              <span> demo123@gmail.com</span>
+              <span> innocantoperf@gmail.com</span>
             </a>
           </div>
         </div>
@@ -725,14 +722,19 @@
   <section class="container-fluid footer_section ">
     <div class="container">
       <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved. Design by
-        <a href="https://html.design/">GARCIA</a>
+        &copy; <span id="displayYear"></span> All Rights Reserved. 
       </p>
+       <!-- Design by
+        <a href="https://html.design/">GARCIA</a> -->
     </div>
   </section>
   <!-- end  footer section -->
 
-
+  <script type="text/javascript">
+    if(window.history.replaceState){
+      window.history.replaceState(null, null, window.location.href);
+    }
+  </script>
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>

@@ -85,10 +85,16 @@ if(isset($_POST['send'])){
         <script>
         alert('Thank you for sending your feedback. We appreciate that you reached out to us to further improve our services.');
         document.location.href = https://innocanto.shop/index.php
-        </script>";
+        </script>
+        ";
     } else{
         // Alert the user if there was an error sending the message
-        echo "<script>alert('There was an error in sending your message. Please try again later.');</script>";
+        echo 
+        "
+        <script>
+        alert('There was an error in sending your message. Please try again later.');
+        </script>
+        ";
     }
     // $mail->send();
 
