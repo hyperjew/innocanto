@@ -49,6 +49,10 @@ require 'phpmailer/src/SMTP.php';
 
 
 if(isset($_POST['send'])){
+
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    
     $mail = new PHPMailer(true);
 
     $mail->isSMTP();
@@ -56,14 +60,13 @@ if(isset($_POST['send'])){
     $mail->SMTPAuth = true;
     $mail->Username = 'carpoolkachow@gmail.com';
     $mail->Password = 'lndgepzfhhwhbnwc';
-    $mail->SMTPSecure = 'tls';
-    $mail->Port = 587;
+    $mail->SMTPSecure = 'ssl';
+    $mail->Port = 465;
 
     $mail->setFrom($email, $name);
     $mail->addAddress("carpoolkachow@gmail.com");
 
     $mail->isHTML(true);
-
     $mail->Subject = $_POST['name'];
     $mail->Body = $_POST['message'];
 
