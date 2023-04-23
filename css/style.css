@@ -556,7 +556,7 @@ a:focus {
 }
 
 .about_section .detail-box p {
-  margin-top: 45px;
+  margin-top: 35px;
 }
 
 .about_section .detail-box a {
@@ -586,7 +586,7 @@ a:focus {
   top: 0;
   left: 0;
   height: 100%;
-  width: 52%;
+  width: 55%;
   background-image: url(../images/about-bg.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
