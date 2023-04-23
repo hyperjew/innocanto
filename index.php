@@ -724,11 +724,11 @@
   </section>
   <!-- end  footer section -->
 
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
     if(window.history.replaceState){
       window.history.replaceState(null, null, window.location.href);
     }
-  </script>
+  </script> -->
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>
