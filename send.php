@@ -52,33 +52,48 @@ if(isset($_POST['send'])){
 
     $name = $_POST['name'];
     $email = $_POST['email'];
-    
+
     $mail = new PHPMailer(true);
 
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'carpoolkachow@gmail.com';
-    $mail->Password = 'lndgepzfhhwhbnwc';
+    $mail->Username = 'innocantoperf@gmail.com';
+    $mail->Password = 'fsqkhgmlrmdufaxm';
     $mail->SMTPSecure = 'ssl';
     $mail->Port = 465;
 
     $mail->setFrom($email, $name);
-    $mail->addAddress("carpoolkachow@gmail.com");
+    $mail->addAddress("innocantoperf@gmail.com");
 
     $mail->isHTML(true);
     $mail->Subject = $_POST['name'];
     $mail->Body = $_POST['message'];
 
-    $mail->send();
+    // Send the email to the business email
+    if($mail->send()){
+        // Send an automatic response to the user
+        $mail->clearAddresses();
+        $mail->addAddress($_POST["email"]);
+        $mail->Subject = 'Feedback/Concern';
+        $mail->Body = 'Dear ' . $_POST['name'] . ',<br><br>Thank you for sending your feedback/concern. We have received your message and will respond to you as soon as possible.<br><br>Warm Wishes,<br>Innocanto Perfume';
+        $mail->send();
 
-    echo
-    "
-    <script>
-    alert('Sent Successfully');
-    document.location.href = index.php
-    </script>
-    ";
+        // Alert the user that their feedback was successfully submitted
+        echo "<script>alert('Thank you for sending your feedback. We appreciate that you reached out to us, to further improve our service.');</script>";
+    } else{
+        // Alert the user if there was an error sending the message
+        echo "<script>alert('There was an error in sending your message. Please try again later.');</script>";
+    }
+    // $mail->send();
+
+    // $alert =
+    // "
+    // <script>
+    // alert('Sent Successfully');
+    // document.location.href = index.php
+    // </script>
+    // ";
 }
 ?>
 
