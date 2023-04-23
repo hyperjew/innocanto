@@ -620,12 +620,12 @@
             <a href="">
               <img src="images/linkedin.png" alt="">
             </a>
-          </div> -->
+          </div> 
           <div>
             <a href="">
               <img src="images/instagram.png" alt="">
             </a>
-          </div>
+          </div>-->
         </div>
       </div>
     </div>
@@ -694,7 +694,7 @@
           <div class="info_link-box">
             <a href="">
               <img src="images/location-white.png" alt="">
-              <span> No.123, loram ipusm</span>
+              <span> No.123, location</span>
             </a>
             <a href="">
               <img src="images/call-white.png" alt="">
