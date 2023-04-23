@@ -76,18 +76,23 @@ if(isset($_POST['send'])){
         $mail->clearAddresses();
         $mail->addAddress($_POST["email"]);
         $mail->Subject = 'Feedback/Concern';
-        $mail->Body = 'Dear ' . $_POST['name'] . ',<br><br>Thank you for sending your feedback/concern. We have received your message and will respond to you as soon as possible.<br><br>Warm Wishes,<br>Innocanto Perfume';
+        $mail->Body = 'Dear ' . $_POST['name'] . ',<br><br>Your feedback/concern was sent. We will see to it that we respond to you as soon as we can.<br><br>Warm Wishes,<br>Innocanto Perfume';
         $mail->send();
 
         // Alert the user that their feedback was successfully submitted
-        echo "<script>alert('Thank you for sending your feedback. We appreciate that you reached out to us, to further improve our service.');</script>";
+        echo 
+        "
+        <script>
+        alert('Thank you for sending your feedback. We appreciate that you reached out to us to further improve our services.');
+        document.location.href = https://innocanto.shop/index.php
+        </script>";
     } else{
         // Alert the user if there was an error sending the message
         echo "<script>alert('There was an error in sending your message. Please try again later.');</script>";
     }
     // $mail->send();
 
-    // $alert =
+    // echo
     // "
     // <script>
     // alert('Sent Successfully');
