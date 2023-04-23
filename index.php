@@ -636,8 +636,7 @@
             About Innocanto
           </h6>
           <p>
-          INNOCANTO Perfume is inspired by original scents. It is 100% oil based, it is proven and tested with very affordable price. INNOCANTO Perfume is perfect for any gift occasions. The owner is open for retailing/wholesale, not networking but simply buy and sell perfumes.
-          </p>
+          INNOCANTO Perfume is inspired by original scents. It is 100% oil based, it is proven and tested with very affordable price. INNOCANTO Perfume is perfect for any gift occasions.
         </div>
         <div class="col-md-2 offset-lg-1">
           <h6>
@@ -666,11 +665,6 @@
             Useful Links
           </h6>
           <ul>
-            <li>
-              <a href="">
-                Link
-              </a>
-            </li>
             <li>
               <a href="">
                 Link
