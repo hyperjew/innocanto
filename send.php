@@ -43,7 +43,7 @@ if(isset($_POST['send'])){
         "
         <script>
         alert('Thank you for sending your feedback. We appreciate that you reached out to us to further improve our services.');
-        window.location.href = https://innocanto.shop/index.php
+        window.location = 'https://innocanto.shop/index.php'
         </script>
         ";
          
