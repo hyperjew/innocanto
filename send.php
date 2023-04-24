@@ -12,22 +12,22 @@ if(isset($_POST['send'])){
     $name = $_POST['name'];
     $email = $_POST['email'];
 
-    $mail = new PHPMailer(true);
+    $mail = new PHPMailer();
 
     $mail->isSMTP();
     $mail->Host = 'smtp.hostinger.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'contact@innocanto.shop';
-    $mail->Password = 'Jewel@123';
     $mail->SMTPSecure = 'tls'; // ssl
     $mail->Port = 587; // 465
+    $mail->Username = 'contact@innocanto.shop';
+    $mail->Password = 'Jewel@123';
 
-    $mail->setFrom($email, $name);
-    $mail->addAddress("contact@innocanto.shop");
-
-    $mail->isHTML(true);
     $mail->Subject = $_POST['name'];
+    $mail->setFrom('contact@innocanto.shop', 'Innocanto');
+    $mail->isHTML(true);
+
     $mail->Body = $_POST['message'];
+    $mail->addAddress('contact@innocanto.shop');
 
     // Send the email to the business email
     if($mail->send()){
@@ -36,8 +36,8 @@ if(isset($_POST['send'])){
         $mail->addAddress($_POST["email"]);
         $mail->Subject = 'Feedback/Concern';
         $mail->Body = 'Dear ' . $_POST['name'] . ',<br><br>Your feedback/concern was sent. We will see to it that we respond to you as soon as we can.<br><br>Warm Wishes,<br>Innocanto Perfume';
+        
         $mail->send();
-
         // Alert the user that their feedback was successfully submitted
         echo 
         "
@@ -57,7 +57,6 @@ if(isset($_POST['send'])){
         ";
     }
 }
-
 
 // if(isset($_POST['name']) && isset($_POST['email'])){
 //     $name = $_POST['name'];
