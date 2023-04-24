@@ -15,15 +15,15 @@ if(isset($_POST['send'])){
     $mail = new PHPMailer(true);
 
     $mail->isSMTP();
-    $mail->Host = 'smtp.gmail.com';
+    $mail->Host = 'smtp.hostinger.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'innocanto@gmail.com';
-    $mail->Password = 'uvxpvinpxindabgz';
-    $mail->SMTPSecure = 'ssl';
-    $mail->Port = 465;
+    $mail->Username = 'contact@innocanto.shop';
+    $mail->Password = 'Jewel@123';
+    $mail->SMTPSecure = 'tls';
+    $mail->Port = 578;
 
     $mail->setFrom($email, $name);
-    $mail->addAddress("innocanto@gmail.com");
+    $mail->addAddress("contact@innocanto.shop");
 
     $mail->isHTML(true);
     $mail->Subject = $_POST['name'];
