@@ -19,8 +19,8 @@ if(isset($_POST['send'])){
     $mail->SMTPAuth = true;
     $mail->Username = 'contact@innocanto.shop';
     $mail->Password = 'Jewel@123';
-    $mail->SMTPSecure = 'tls';
-    $mail->Port = 587;
+    $mail->SMTPSecure = 'tls'; // ssl
+    $mail->Port = 587; // 465
 
     $mail->setFrom($email, $name);
     $mail->addAddress("contact@innocanto.shop");
@@ -56,15 +56,6 @@ if(isset($_POST['send'])){
         </script>
         ";
     }
-    // $mail->send();
-
-    // echo
-    // "
-    // <script>
-    // alert('Sent Successfully');
-    // document.location.href = index.php
-    // </script>
-    // ";
 }
 
 
