@@ -17,13 +17,13 @@ if(isset($_POST['send'])){
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'innocantoperf@gmail.com';
-    $mail->Password = 'fsqkhgmlrmdufaxm';
+    $mail->Username = 'innocanto@gmail.com';
+    $mail->Password = 'figxcopanyvfzior';
     $mail->SMTPSecure = 'ssl';
     $mail->Port = 465;
 
     $mail->setFrom($email, $name);
-    $mail->addAddress("innocantoperf@gmail.com");
+    $mail->addAddress("innocanto@gmail.com");
 
     $mail->isHTML(true);
     $mail->Subject = $_POST['name'];
