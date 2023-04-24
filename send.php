@@ -20,7 +20,7 @@ if(isset($_POST['send'])){
     $mail->Username = 'contact@innocanto.shop';
     $mail->Password = 'Jewel@123';
     $mail->SMTPSecure = 'tls';
-    $mail->Port = 578;
+    $mail->Port = 587;
 
     $mail->setFrom($email, $name);
     $mail->addAddress("contact@innocanto.shop");
