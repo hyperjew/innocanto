@@ -445,9 +445,9 @@
     </div>
   </section>
 
-  <!-- end blog section 
+  end blog section 
 
-  <!-- client section 
+   client section 
 
   <section class="client_section layout_padding">
     <div class="container">
@@ -539,9 +539,9 @@
   </section>
 
 
-  <!-- end client section  
+   end client section  
 
-  <!-- subscribe section 
+   subscribe section 
 
   <section class="subscribe_section ">
     <div class="container">
@@ -565,7 +565,7 @@
     </div>
   </section>
 
-  <!-- end subscribe section -->
+ end subscribe section -->
 
    <!-- contact section -->
 

@@ -1,33 +1,32 @@
 <?php
 
 use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-require 'phpmailer/src/Exception.php';
-require 'phpmailer/src/PHPMailer.php';
-require 'phpmailer/src/SMTP.php';
+require 'vendor/autoload.php';
 
 if(isset($_POST['send'])){
 
     $name = $_POST['name'];
     $email = $_POST['email'];
 
-    $mail = new PHPMailer();
-
+    $mail = new PHPMailer(true);
+    $mail->SMTPDebug = 0;
     $mail->isSMTP();
-    $mail->Host = 'smtp.hostinger.com';
+    $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->SMTPSecure = 'tls'; // ssl
-    $mail->Port = 587; // 465
-    $mail->Username = 'contact@innocanto.shop';
-    $mail->Password = 'Jewel@123';
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+    $mail->Port = '587';
+    $mail->Username = 'Innocantoscents@gmail.com';
+    $mail->Password = 'lficqbrqorbmepfg';
 
     $mail->Subject = $_POST['name'];
-    $mail->setFrom('contact@innocanto.shop', 'Innocanto');
+    $mail->setFrom('Innocantoscents@gmail.com', 'Innocanto');
     $mail->isHTML(true);
 
     $mail->Body = $_POST['message'];
-    $mail->addAddress('contact@innocanto.shop');
+    $mail->addAddress('Innocantoscents@gmail.com');
 
     // Send the email to the business email
     if($mail->send()){
