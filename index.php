@@ -132,8 +132,8 @@
     </section>
     <!-- end slider section -->
   </div>
-<!-- 
-  product section 
+
+  <!-- product section  -->
 
   <section class="product_section layout_padding">
     <div class="container">
@@ -154,7 +154,7 @@
             <h4>
               <span>$</span>100
             </h4>
-            <a href="">
+            <a href="product.html">
               Buy Now
             </a>
           </div>
@@ -170,7 +170,7 @@
             <h4>
               <span>$</span>100
             </h4>
-            <a href="">
+            <a href="product.html">
               Buy Now
             </a>
           </div>
@@ -186,7 +186,7 @@
             <h4>
               <span>$</span>100
             </h4>
-            <a href="">
+            <a href="product.html">
               Buy Now
             </a>
           </div>
@@ -202,7 +202,7 @@
             <h4>
               <span>$</span>100
             </h4>
-            <a href="">
+            <a href="product.html">
               Buy Now
             </a>
           </div>
@@ -218,7 +218,7 @@
             <h4>
               <span>$</span>100
             </h4>
-            <a href="">
+            <a href="product.html">
               Buy Now
             </a>
           </div>
@@ -234,23 +234,23 @@
             <h4>
               <span>$</span>100
             </h4>
-            <a href="">
+            <a href="product.html">
               Buy Now
             </a>
           </div>
         </div>
       </div>
       <div class="btn-box">
-        <a href="">
+        <a href="product.html">
           See More
         </a>
       </div>
     </div>
   </section>
 
- end product section 
+<!-- end product section  -->
 
-   about section 
+  <!-- about section  -->
 
   <section class="about_section layout_padding">
     <div class="container">
@@ -259,13 +259,13 @@
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-                About Our Product
+                About Innocanto
               </h2>
             </div>
             <p>
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem IpsumIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum
-            </p>
-            <a href="">
+            INNOCANTO Perfume is inspired by original scents. It is 100% oil based, it is proven and tested with very affordable price. INNOCANTO Perfume is perfect for any gift occasions.
+          </p>
+            <a href="about.html">
               Read More
             </a>
           </div>
@@ -279,9 +279,9 @@
     </div>
   </section>
 
-   end about section 
+  <!-- end about section  -->
 
-   us section 
+  <!-- us section  -->
 
   <section class="us_section layout_padding">
     <div class="container">
@@ -341,15 +341,15 @@
     </div>
   </section>
 
-   end us section 
+  <!-- end us section  -->
 
-   store section 
+  <!-- store section  -->
 
   <section class="store_section layout_padding-bottom">
     <div class="container">
       <div class="heading_container">
         <h2>
-          The Best Fooc Store
+          The Best Innocanto Store
         </h2>
       </div>
     </div>
@@ -399,9 +399,9 @@
     </div>
   </section>
 
-   end store section 
+   <!-- end store section  -->
 
-   blog section 
+   <!-- blog section  -->
 
   <section class="blog_section layout_padding">
     <div class="container">
@@ -418,7 +418,7 @@
             </div>
             <div class="detail-box">
               <h3>
-                New FOOC Products
+                New Innocanto Products
               </h3>
               <p>
                 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem
@@ -433,7 +433,7 @@
             </div>
             <div class="detail-box">
               <h3>
-                New FOOC Products
+                New Innocanto Products
               </h3>
               <p>
                 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem
@@ -445,9 +445,9 @@
     </div>
   </section>
 
-  end blog section 
+  <!-- end blog section  -->
 
-   client section 
+   <!-- client section  -->
 
   <section class="client_section layout_padding">
     <div class="container">
@@ -538,10 +538,9 @@
     </div>
   </section>
 
+<!-- end client section   -->
 
-   end client section  
-
-   subscribe section 
+   <!-- subscribe section 
 
   <section class="subscribe_section ">
     <div class="container">
