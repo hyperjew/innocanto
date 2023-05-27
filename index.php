@@ -139,7 +139,7 @@
     <div class="container">
       <div class="heading_container">
         <h2>
-          Our Products
+          Best Sellers
         </h2>
       </div>
       <div class="product_container">
@@ -149,7 +149,7 @@
           </div>
           <div class="detail-box">
             <h5>
-              Face Wash And Cream
+              Incanto Shine
             </h5>
             <h4>
               <span>$</span>100
@@ -165,7 +165,7 @@
           </div>
           <div class="detail-box">
             <h5>
-              Hand wash
+              Endless Love(Victoria Secret)
             </h5>
             <h4>
               <span>$</span>100
@@ -181,7 +181,7 @@
           </div>
           <div class="detail-box">
             <h5>
-              Hair Oil
+              Cool Water Men
             </h5>
             <h4>
               <span>$</span>100
@@ -191,6 +191,7 @@
             </a>
           </div>
         </div>
+        <!--
         <div class="box">
           <div class="img-box">
             <img src="images/p-4.jpg" alt="">
@@ -211,7 +212,7 @@
           <div class="img-box">
             <img src="images/p-5.jpg" alt="">
           </div>
-          <div class="detail-box">
+           <div class="detail-box">
             <h5>
               Soap
             </h5>
@@ -239,7 +240,7 @@
             </a>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="btn-box">
         <a href="product.html">
           See More
@@ -263,7 +264,7 @@
               </h2>
             </div>
             <p>
-            INNOCANTO Perfume is inspired by original scents. It is 100% oil based, it is proven and tested with very affordable price. INNOCANTO Perfume is perfect for any gift occasions.
+            INNOCANTO Perfume is inspired by original scents. It is 100% oil based, proven and tested with very affordable price. INNOCANTO Perfume is the perfect gift for any occasions.
           </p>
             <a href="about.html">
               Read More
