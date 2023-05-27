@@ -307,7 +307,7 @@
                   </h5>
                 </div>
                 <h6>
-                  It is a long established fact that a reader will be distracted
+                  Innocanto is inspired by original scents.
                 </h6>
               </div>
               <div class="text-box">
@@ -317,7 +317,7 @@
                   </h5>
                 </div>
                 <h6>
-                  It is a long established fact that a reader will be distracted
+                  Innocanto is open for retailers and wholesale sellers or dealers.
                 </h6>
               </div>
               <div class="text-box">
@@ -327,7 +327,7 @@
                   </h5>
                 </div>
                 <h6>
-                  It is a long established fact that a reader will be distracted
+                  It is the perfect and affordable gift for your family and friends.
                 </h6>
               </div>
             </div>
@@ -419,10 +419,10 @@
             </div>
             <div class="detail-box">
               <h3>
-                New Innocanto Products
+                New Innocanto Scents
               </h3>
               <p>
-                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem
+                Excited for more new scents? See what's new!
               </p>
             </div>
           </div>
@@ -434,10 +434,10 @@
             </div>
             <div class="detail-box">
               <h3>
-                New Innocanto Products
+                Innocanto Best Sellers
               </h3>
               <p>
-                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem
+                Get to know Innocanto's best selling perfume scents!
               </p>
             </div>
           </div>
@@ -448,7 +448,7 @@
 
   <!-- end blog section  -->
 
-   <!-- client section  -->
+   <!-- client section
 
   <section class="client_section layout_padding">
     <div class="container">
@@ -539,7 +539,7 @@
     </div>
   </section>
 
-<!-- end client section   -->
+ end client section   -->
 
    <!-- subscribe section 
 
