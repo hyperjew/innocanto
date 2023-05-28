@@ -415,7 +415,7 @@
         <div class="col-md-6">
           <div class="box">
             <div class="img-box">
-              <img src="images/b-1.jpg" alt="">
+              <img src="images/b-1.png" alt="">
             </div>
             <div class="detail-box">
               <h3>
