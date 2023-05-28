@@ -311,7 +311,7 @@
         <div class="carousel-item active">
           <div class="container">
             <div class="img-box">
-              <img src="images/store-img.jpg" alt="">
+              <img src="images/incpstore.jpg" alt="">
             </div>
           </div>
           <div class="carousel-caption d-none d-md-block">
@@ -384,7 +384,7 @@
         <div class="col-md-6">
           <div class="box">
             <div class="img-box">
-              <img src="images/b-2.jpg" alt="Innocanto Best Sellers">
+              <img src="images/innoboquet.jpg" alt="Innocanto Best Sellers">
             </div>
             <a href="blog.html">
             <div class="detail-box">
