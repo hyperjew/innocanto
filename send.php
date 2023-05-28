@@ -26,7 +26,7 @@ if(isset($_POST['send'])){
     $mail->isHTML(true);
 
     $mail->Body = $_POST['message'];
-    $mail->addAddress($email);
+    $mail->addAddress($_POST['email']);
 
     // Send the email to the business email
     if($mail->send()){
