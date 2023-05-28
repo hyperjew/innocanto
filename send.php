@@ -26,7 +26,7 @@ if(isset($_POST['send'])){
     $mail->isHTML(true);
 
     $mail->Body = $_POST['message'];
-    $mail->addAddress($_POST['email']);
+    $mail->addAddress('Innocantoscents@gmail.com');
 
     // Send the email to the business email
     if($mail->send()){
