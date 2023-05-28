@@ -68,8 +68,8 @@
                 <a href="index.php">Home</a>
                 <a href="about.html">About</a>
                 <a href="product.html">Products</a>
-                <a href="blog.html">Blog</a>
                 <a href="contact.html">Contact Us</a>
+                <a href="blog.html">Blog</a>
               </div>
             </div>
           </div>
@@ -110,11 +110,6 @@
                     <img src="images/inocantofont.jpg" alt="">
                   </div>
                 </div>
-                <!-- <div class="carousel-item">
-                  <div class="img-box">
-                    <img src="images/sliderperf.png" alt="">
-                  </div>
-                </div> -->
               </div>
               <div class="carousel_btn-container">
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -311,7 +306,7 @@
         <div class="carousel-item active">
           <div class="container">
             <div class="img-box">
-              <img src="images/incpstore.jpg" alt="">
+              <img src="images/innostoree.jpg" alt="Innocanto Physical Store">
             </div>
           </div>
           <div class="carousel-caption d-none d-md-block">
@@ -321,7 +316,7 @@
         <div class="carousel-item">
           <div class="container">
             <div class="img-box">
-              <img src="images/live-map.jpg" alt="">
+              <img src="images/live-map.jpg" alt="Innocanto Live Map">
             </div>
           </div>
           <div class="carousel-caption d-none d-md-block">
@@ -331,7 +326,7 @@
         <div class="carousel-item">
           <div class="container">
             <div class="img-box">
-              <img src="images/storeprod.jpg" alt="">
+              <img src="images/storeprod.jpg" alt="Innocanto Store Products">
             </div>
           </div>
           <div class="carousel-caption d-none d-md-block">
@@ -384,7 +379,7 @@
         <div class="col-md-6">
           <div class="box">
             <div class="img-box">
-              <img src="images/innoboquet.jpg" alt="Innocanto Best Sellers">
+              <img src="images/innobq.jpg" alt="Innocanto Best Sellers">
             </div>
             <a href="blog.html">
             <div class="detail-box">
@@ -609,10 +604,10 @@
               <a class="" href="product.html">Products </a>
             </li>
             <li class="">
-              <a class="" href="blog.html">Blog </a>
+              <a class="" href="contact.html">Contact Us</a>
             </li>
             <li class="">
-              <a class="" href="contact.html">Contact Us</a>
+              <a class="" href="blog.html">Blog </a>
             </li>
           </ul>
         </div>
