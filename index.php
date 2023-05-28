@@ -153,9 +153,6 @@
             <h4>
               <span>₱</span>0.00
             </h4>
-            <a href="product.html">
-              Buy Now
-            </a>
           </div>
         </div>
         <div class="box">
@@ -169,9 +166,6 @@
             <h4>
               <span>₱</span>0.00
             </h4>
-            <a href="product.html">
-              Buy Now
-            </a>
           </div>
         </div>
         <div class="box">
@@ -185,9 +179,6 @@
             <h4>
               <span>₱</span>0.00
             </h4>
-            <a href="product.html">
-              Buy Now
-            </a>
           </div>
         </div>
       <div class="btn-box">
