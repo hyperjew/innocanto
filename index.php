@@ -37,19 +37,20 @@
               Innocanto
             </span>
           </a>
+          <!-- SEARCH
           <div class="" id="">
             <div class="User_option">
-              <!-- SEARCH 
+               
               <form class="form-inline my-2  mb-3 mb-lg-0">
                 <input type="search" placeholder="Search">
                 <button class="btn   my-sm-0 nav_search-btn" type="submit"></button>
               </form>
-            -->
+            
               <a href="">
                 <img src="images/bag.png" alt="">
               </a>
             </div>
-
+          -->
             <div class="custom_menu-btn">
               <button onclick="openNav()">
                 <span class="s-1">
@@ -77,6 +78,7 @@
       </div>
     </header>
     <!-- end header section -->
+    
     <!-- slider section -->
     <section class="slider_section">
       <!-- <div class="side-img">
