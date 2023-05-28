@@ -13,7 +13,7 @@
   <meta name="author" content="" />
 
   <title>Innocanto</title>
-  <link rel="icon" href="images/I.png" sizes="96x96" type="image/png">
+  <link rel="icon" href="images/innologo.png" sizes="96x96" type="image/png">
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -39,10 +39,12 @@
           </a>
           <div class="" id="">
             <div class="User_option">
+              <!-- SEARCH 
               <form class="form-inline my-2  mb-3 mb-lg-0">
                 <input type="search" placeholder="Search">
                 <button class="btn   my-sm-0 nav_search-btn" type="submit"></button>
               </form>
+            -->
               <a href="">
                 <img src="images/bag.png" alt="">
               </a>
@@ -66,7 +68,7 @@
                 <a href="index.php">Home</a>
                 <a href="about.html">About</a>
                 <a href="product.html">Products</a>
-                <!-- <a href="blog.html">Blog</a> -->
+                <a href="blog.html">Blog</a>
                 <a href="contact.html">Contact Us</a>
               </div>
             </div>
@@ -77,9 +79,9 @@
     <!-- end header section -->
     <!-- slider section -->
     <section class="slider_section">
-      <div class="side-img">
+      <!-- <div class="side-img">
         <img src="images/side-img.png" alt="">
-      </div>
+      </div> -->
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -105,7 +107,7 @@
                 </div>
                 <div class="carousel-item">
                   <div class="img-box">
-                    <img src="images/sliderperf.png" alt="">
+                    <img src="images/inocantofont.jpg" alt="">
                   </div>
                 </div>
                 <!-- <div class="carousel-item">
@@ -145,14 +147,30 @@
       <div class="product_container">
         <div class="box">
           <div class="img-box">
-            <img src="images/p-1.jpg" alt="">
+            <img src="images/prod.jpg"  alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Katy Perry-MEOW!
+            </h5>
+            <h4>
+              <span>₱</span>0.00
+            </h4>
+            <a href="product.html">
+              Buy Now
+            </a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/prod2.jpg" alt="">
           </div>
           <div class="detail-box">
             <h5>
               Incanto Shine
             </h5>
             <h4>
-              <span>$</span>100
+              <span>₱</span>0.00
             </h4>
             <a href="product.html">
               Buy Now
@@ -161,86 +179,20 @@
         </div>
         <div class="box">
           <div class="img-box">
-            <img src="images/p-2.jpg" alt="">
+            <img src="images/prod3.jpg" alt="">
           </div>
           <div class="detail-box">
             <h5>
-              Endless Love(Victoria Secret)
+              Vanilla Lace
             </h5>
             <h4>
-              <span>$</span>100
+              <span>₱</span>0.00
             </h4>
             <a href="product.html">
               Buy Now
             </a>
           </div>
         </div>
-        <div class="box">
-          <div class="img-box">
-            <img src="images/p-3.jpg" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              Cool Water Men
-            </h5>
-            <h4>
-              <span>$</span>100
-            </h4>
-            <a href="product.html">
-              Buy Now
-            </a>
-          </div>
-        </div>
-        <!--
-        <div class="box">
-          <div class="img-box">
-            <img src="images/p-4.jpg" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              Face Cream
-            </h5>
-            <h4>
-              <span>$</span>100
-            </h4>
-            <a href="product.html">
-              Buy Now
-            </a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="img-box">
-            <img src="images/p-5.jpg" alt="">
-          </div>
-           <div class="detail-box">
-            <h5>
-              Soap
-            </h5>
-            <h4>
-              <span>$</span>100
-            </h4>
-            <a href="product.html">
-              Buy Now
-            </a>
-          </div>
-        </div>
-        <div class="box">
-          <div class="img-box">
-            <img src="images/p-6.jpg" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              Body Oil
-            </h5>
-            <h4>
-              <span>$</span>100
-            </h4>
-            <a href="product.html">
-              Buy Now
-            </a>
-          </div>
-        </div>
-      </div> -->
       <div class="btn-box">
         <a href="product.html">
           See More
@@ -273,7 +225,7 @@
         </div>
         <div class="col-md-6">
           <div class="img-box">
-            <img src="images/about-img.png" alt="">
+            <img src="images/innologo.png" alt="">
           </div>
         </div>
       </div>
@@ -289,7 +241,7 @@
       <div class="row">
         <div class="col-md-5">
           <div class="img-box">
-            <img src="images/us-img.png" alt="">
+            <img src="images/untitledprod.jpg" alt="">
           </div>
         </div>
         <div class="col-md-7">
@@ -350,7 +302,7 @@
     <div class="container">
       <div class="heading_container">
         <h2>
-          The Best Innocanto Store
+          Visit the Innocanto Store
         </h2>
       </div>
     </div>
@@ -363,27 +315,27 @@
             </div>
           </div>
           <div class="carousel-caption d-none d-md-block">
-            <h5>It is a long established fact that a reader will be distracted </h5>
+            <h5>Innocanto Physical Store in Baliwag </h5>
           </div>
         </div>
         <div class="carousel-item">
           <div class="container">
             <div class="img-box">
-              <img src="images/store-img.jpg" alt="">
+              <img src="images/live-map.jpg" alt="">
             </div>
           </div>
           <div class="carousel-caption d-none d-md-block">
-            <h5>It is a long established fact that a reader will be distracted </h5>
+            <h5></h5>
           </div>
         </div>
         <div class="carousel-item">
           <div class="container">
             <div class="img-box">
-              <img src="images/store-img.jpg" alt="">
+              <img src="images/storeprod.jpg" alt="">
             </div>
           </div>
           <div class="carousel-caption d-none d-md-block">
-            <h5>It is a long established fact that a reader will be distracted </h5>
+            <h5>Visit Innocanto Store now & get your very own scent!</h5>
           </div>
         </div>
       </div>
@@ -415,8 +367,9 @@
         <div class="col-md-6">
           <div class="box">
             <div class="img-box">
-              <img src="images/b-1.png" alt="">
+              <img src="images/innoscents.jpg" alt="Innocanto new scents">
             </div>
+            <a href="blog.html">
             <div class="detail-box">
               <h3>
                 New Innocanto Scents
@@ -425,21 +378,24 @@
                 Excited for more new scents? See what's new!
               </p>
             </div>
+          </a>
           </div>
         </div>
         <div class="col-md-6">
           <div class="box">
             <div class="img-box">
-              <img src="images/b-2.jpg" alt="">
+              <img src="images/b-2.jpg" alt="Innocanto Best Sellers">
             </div>
+            <a href="blog.html">
             <div class="detail-box">
               <h3>
                 Innocanto Best Sellers
               </h3>
               <p>
-                Get to know Innocanto's best selling perfume scents!
+                Get to know Innocanto's best selling scents!
               </p>
             </div>
+          </a>
           </div>
         </div>
       </div>
@@ -636,7 +592,7 @@
             About Innocanto
           </h6>
           <p>
-          INNOCANTO Perfume is inspired by original scents. It is 100% oil based, it is proven and tested with very affordable price. INNOCANTO Perfume is perfect for any gift occasions.
+          INNOCANTO Perfume is inspired by original scents. It is 100% oil based, it is proven and tested with very affordable price. 
         </div>
         <div class="col-md-2 offset-lg-1">
           <h6>
@@ -652,15 +608,15 @@
             <li class="">
               <a class="" href="product.html">Products </a>
             </li>
-            <!-- <li class="">
+            <li class="">
               <a class="" href="blog.html">Blog </a>
-            </li> -->
+            </li>
             <li class="">
               <a class="" href="contact.html">Contact Us</a>
             </li>
           </ul>
         </div>
-        <div class="col-md-3">
+        <!-- <div class="col-md-3">
           <h6>
             Useful Links
           </h6>
@@ -686,21 +642,21 @@
               </a>
             </li>
           </ul>
-        </div>
+        </div> -->
         <div class="col-md-4 col-lg-3">
           <h6>
             Contact Us
           </h6>
           <div class="info_link-box">
-            <a href="">
+            <a>
               <img src="images/location-white.png" alt="">
-              <span> No.123, location</span>
+              <span>Benigno S. Aquino Ave, Baliwag, 3006 Bulacan</span>
             </a>
-            <a href="">
+            <a>
               <img src="images/call-white.png" alt="">
-              <span>+01 12345678901</span>
+              <span>+63 9551005048</span>
             </a>
-            <a href="">
+            <a>
               <img src="images/mail-white.png" alt="">
               <span> innocantoperf@gmail.com</span>
             </a>
