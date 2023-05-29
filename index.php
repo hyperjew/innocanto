@@ -46,8 +46,8 @@
                 <button class="btn   my-sm-0 nav_search-btn" type="submit"></button>
               </form>
              -->
-              <a href="product.html">
-                <img src="images/bag.png" alt="">
+              <a href="contact.html">
+                <img src="images/icons8-mail-30.png" alt="Email us">
               </a>
             </div>
          
@@ -150,9 +150,9 @@
             <h5>
               Katy Perry-MEOW!
             </h5>
-            <h4>
+            <!-- <h4>
               <span>₱</span>0.00
-            </h4>
+            </h4> -->
           </div>
         </div>
         <div class="box">
@@ -163,9 +163,9 @@
             <h5>
               Incanto Shine
             </h5>
-            <h4>
+            <!-- <h4>
               <span>₱</span>0.00
-            </h4>
+            </h4> -->
           </div>
         </div>
         <div class="box">
@@ -176,9 +176,9 @@
             <h5>
               Vanilla Lace
             </h5>
-            <h4>
+            <!-- <h4>
               <span>₱</span>0.00
-            </h4>
+            </h4> -->
           </div>
         </div>
       <div class="btn-box">
@@ -271,11 +271,11 @@
                 </h6>
               </div>
             </div>
-            <div class="btn-box">
+            <!-- <div class="btn-box">
               <a href="">
                 Read More
               </a>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -363,7 +363,7 @@
                 New Innocanto Scents
               </h3>
               <p>
-                Excited for more new scents? See what's new!
+                Excited for more scents? See what's new!
               </p>
             </div>
           </a>
