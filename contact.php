@@ -54,10 +54,10 @@
             <div id="myNav" class="overlay">
               <div class="overlay-content">
                 <a href="index.php">Home</a>
-                <a href="about.html">About</a>
-                <a href="product.html">Products</a>
-                <a href="contact.html">Contact Us</a>
-                <a href="blog.html">Blog</a>
+                <a href="about.php">About</a>
+                <a href="product.php">Products</a>
+                <a href="contact.php">Contact Us</a>
+                <a href="blog.php">Blog</a>
               </div>
             </div>
           </div>
@@ -168,16 +168,16 @@
               <a class="" href="index.php">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="">
-              <a class="" href="about.html">About</a>
+              <a class="" href="about.php">About</a>
             </li>
             <li class="">
-              <a class="" href="product.html">Products</a>
+              <a class="" href="product.php">Products</a>
             </li>
             <li class="">
-              <a class="" href="contact.html">Contact Us</a>
+              <a class="" href="contact.php">Contact Us</a>
             </li>
             <li class="">
-              <a class="" href="blog.html">Blog</a>
+              <a class="" href="blog.php">Blog</a>
             </li>
           </ul>
         </div>
@@ -211,7 +211,7 @@
   <section class="container-fluid footer_section ">
     <div class="container">
       <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved. 
+        &copy; <span id="displayYear"></span>Innocanto Perfume. All Rights Reserved. 
       </p>
       <!-- Design by
         <a href="https://html.design/">GARCIA</a> -->

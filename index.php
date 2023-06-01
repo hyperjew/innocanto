@@ -67,10 +67,10 @@
             <div id="myNav" class="overlay">
               <div class="overlay-content">
                 <a href="index.php">Home</a>
-                <a href="about.html">About</a>
-                <a href="product.html">Products</a>
-                <a href="contact.html">Contact Us</a>
-                <a href="blog.html">Blog</a>
+                <a href="about.php">About</a>
+                <a href="product.php">Products</a>
+                <a href="contact.php">Contact Us</a>
+                <a href="blog.php">Blog</a>
               </div>
             </div>
           </div>
@@ -94,7 +94,7 @@
               <h1>
                 Innocanto
               </h1>
-              <a href="about.html">
+              <a href="about.php">
                 Read More
               </a>
             </div>
@@ -144,7 +144,7 @@
       <div class="product_container">
         <div class="box">
           <div class="img-box">
-            <img src="images/prod.jpg"  alt="">
+            <img src="images/prod.jpg"  alt="Katy Perry-MEOW! Inspired">
           </div>
           <div class="detail-box">
             <h5>
@@ -157,7 +157,7 @@
         </div>
         <div class="box">
           <div class="img-box">
-            <img src="images/prod2.jpg" alt="">
+            <img src="images/prod2.jpg" alt="Incanto Shine Inspired">
           </div>
           <div class="detail-box">
             <h5>
@@ -170,7 +170,7 @@
         </div>
         <div class="box">
           <div class="img-box">
-            <img src="images/prod3.jpg" alt="">
+            <img src="images/prod3.jpg" alt="Vanilla Lace Inspired">
           </div>
           <div class="detail-box">
             <h5>
@@ -182,7 +182,7 @@
           </div>
         </div>
       <div class="btn-box">
-        <a href="product.html">
+        <a href="product.php">
           See More
         </a>
       </div>
@@ -206,14 +206,14 @@
             <p>
             INNOCANTO Perfume is inspired by original scents. It is 100% oil based, proven and tested with very affordable price. INNOCANTO Perfume is the perfect gift for any occasions.
           </p>
-            <a href="about.html">
+            <a href="about.php">
               Read More
             </a>
           </div>
         </div>
         <div class="col-md-6">
           <div class="img-box">
-            <img src="images/innologo.png" alt="">
+            <img src="images/innologo.png" alt="Innocanto Logo">
           </div>
         </div>
       </div>
@@ -236,7 +236,7 @@
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-                Why Choose us
+                Why Choose us?
               </h2>
             </div>
             <div class="box">
@@ -357,7 +357,7 @@
             <div class="img-box">
               <img src="images/innoscents.jpg" alt="Innocanto new scents">
             </div>
-            <a href="blog.html">
+            <a href="blog.php">
             <div class="detail-box">
               <h3>
                 New Innocanto Scents
@@ -374,7 +374,7 @@
             <div class="img-box">
               <img src="images/innobq.jpg" alt="Innocanto Best Sellers">
             </div>
-            <a href="blog.html">
+            <a href="blog.php">
             <div class="detail-box">
               <h3>
                 Innocanto Best Sellers
@@ -485,32 +485,6 @@
 
  end client section   -->
 
-   <!-- subscribe section 
-
-  <section class="subscribe_section ">
-    <div class="container">
-      <div class="box">
-        <div class="row">
-          <div class="col-md-4 col-lg-3">
-            <h2>
-              Newsletter
-            </h2>
-          </div>
-          <div class="col-md-8 col-lg-9">
-            <form action="">
-              <input type="text" placeholder="Enter your email">
-              <button>
-                Subscribe
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
- end subscribe section -->
-
    <!-- contact section -->
 
   <section class="contact_section layout_padding">
@@ -557,7 +531,7 @@
         <div class="info_social">
           <div>
             <a href="https://www.facebook.com/innocanto.perfume">
-              <img src="images/facebook-logo-button.png" alt="">
+              <img src="images/facebook-logo-button.png" alt="Innocanto Facebook page">
             </a>
           </div>
           <!-- <div>
@@ -591,46 +565,19 @@
               <a class="" href="index.php">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="">
-              <a class="" href="about.html">About Us</a>
+              <a class="" href="about.php">About Us</a>
             </li>
             <li class="">
-              <a class="" href="product.html">Products </a>
+              <a class="" href="product.php">Products </a>
             </li>
             <li class="">
-              <a class="" href="contact.html">Contact Us</a>
+              <a class="" href="contact.php">Contact Us</a>
             </li>
             <li class="">
-              <a class="" href="blog.html">Blog </a>
+              <a class="" href="blog.php">Blog </a>
             </li>
           </ul>
         </div>
-        <!-- <div class="col-md-3">
-          <h6>
-            Useful Links
-          </h6>
-          <ul>
-            <li>
-              <a href="">
-                Link
-              </a>
-            </li>
-            <li>
-              <a href="">
-                Link
-              </a>
-            </li>
-            <li>
-              <a href="">
-                Link
-              </a>
-            </li>
-            <li>
-              <a href="">
-                Link
-              </a>
-            </li>
-          </ul>
-        </div> -->
         <div class="col-md-4 col-lg-3">
           <h6>
             Contact Us
@@ -660,7 +607,7 @@
   <section class="container-fluid footer_section ">
     <div class="container">
       <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved. 
+        &copy; <span id="displayYear"></span> Innocanto Perfume. All Rights Reserved. 
       </p>
        <!-- Design by
         <a href="https://html.design/">GARCIA</a> -->

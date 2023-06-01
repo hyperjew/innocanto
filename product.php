@@ -37,6 +37,20 @@
               Innocanto
             </span>
           </a>
+          <!-- SEARCH 
+          <div class="" id="">
+            <div class="User_option">
+              
+              <form class="form-inline my-2  mb-3 mb-lg-0">
+                <input type="search" placeholder="Search">
+                <button class="btn   my-sm-0 nav_search-btn" type="submit"></button>
+              </form>
+            
+              <a href="">
+                <img src="images/bag.png" alt="">
+              </a>
+            </div>-->
+
             <div class="custom_menu-btn">
               <button onclick="openNav()">
                 <span class="s-1">
@@ -53,10 +67,10 @@
             <div id="myNav" class="overlay">
               <div class="overlay-content">
                 <a href="index.php">Home</a>
-                <a href="about.html">About</a>
-                <a href="product.html">Products</a>
-                <a href="contact.html">Contact Us</a>
-                <a href="blog.html">Blog</a>
+                <a href="about.php">About</a>
+                <a href="product.php">Products</a>
+                <a href="contact.php">Contact Us</a>
+                <a href="blog.php">Blog</a>
               </div>
             </div>
           </div>
@@ -66,33 +80,104 @@
     <!-- end header section -->
   </div>
 
-  <!-- about section -->
+  <!-- product section -->
 
-  <section class="about_section layout_padding">
+  <section class="product_section layout_padding">
     <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="detail-box">
-            <div class="heading_container">
-              <h2>
-                About INNOCANTO
-              </h2>
-            </div>
-            <p>
-              The origin of INNOCANTO Perfume is from a Salvatore Ferragamo scent, Incanto Shine. It was the owner's favorite scent. The owner of INNOCANTO who used to work as a salesclerk for SM, started mixing scents for friends and coworkers back in 2014. From then on we continued to work hard to achieve 55 different scents that are inspired by original perfumes. The owner wishes to inspire customers by selling Innocanto perfumes through retailing and wholesale. Now INNOCANTO has a lot of resellers and accepts orders online through social media like Facebook, electronically, and physically on her store. INNOCANTO Perfume is 100% oil based, proven and tested with very affordable price. INNOCANTO Perfume the perfect for any gift occasions.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-6">
+      <div class="heading_container">
+        <h2>
+          Our Products
+        </h2>
+      </div>
+      <div class="product_container">
+        <div class="box">
           <div class="img-box">
-            <img src="images/innologo.png" alt="Innocanto logo">
+            <img src="images/prod.jpg" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Katy Perry-MEOW!
+            </h5>
+            <!-- <h4>
+              <span>₱</span>0.00
+            </h4> -->
           </div>
         </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/prod2.jpg" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Incanto Shine
+            </h5>
+            <!-- <h4>
+              <span>₱</span>0.00
+            </h4> -->
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/prod3.jpg" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Vanilla Lace
+            </h5>
+            <!-- <h4>
+              <span>₱</span>0.00
+            </h4> -->
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/prod4.jpg" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Guess Men
+            </h5>
+            <!-- <h4>
+              <span>₱</span>0.00
+            </h4> -->
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/prod5.jpg" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Guess Women
+            </h5>
+            <!-- <h4>
+              <span>₱</span>0.00
+            </h4> -->
+          </div>
+        </div>
+        <div class="box">
+          <div class="img-box">
+            <img src="images/prod6.jpg" alt="">
+          </div>
+          <div class="detail-box">
+            <h5>
+              Bvlgari Omnia Amethyste
+            </h5>
+            <!-- <h4>
+              <span>₱</span>0.00
+            </h4> -->
+          </div>
+        </div>
+      </div>
+      <div class="btn-box">
+        <a href="">
+          See More
+        </a>
       </div>
     </div>
   </section>
 
-  <!-- end about section -->
+  <!-- end product section -->
 
   <!-- info section -->
 
@@ -105,9 +190,14 @@
         <div class="info_social">
           <div>
             <a href="https://www.facebook.com/innocanto.perfume">
-              <img src="images/facebook-logo-button.png" alt="Innocanto Facebook Page">
+              <img src="images/facebook-logo-button.png" alt="">
             </a>
           </div>
+          <!-- <div>
+            <a href="">
+              <img src="images/instagram.png" alt="">
+            </a>
+          </div> -->
         </div>
       </div>
     </div>
@@ -120,7 +210,6 @@
           <p>
             INNOCANTO Perfume is inspired by original scents. It is 100% oil based, it is proven and tested with very affordable price.
           </p>
-          </p>
         </div>
         <div class="col-md-2 offset-lg-1">
           <h6>
@@ -131,16 +220,16 @@
               <a class="" href="index.php">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="">
-              <a class="" href="about.html">About </a>
+              <a class="" href="about.php">About </a>
             </li>
             <li class="">
-              <a class="" href="product.html">Products </a>
+              <a class="" href="product.php">Products </a>
             </li>
             <li class="">
-              <a class="" href="contact.html">Contact Us</a>
+              <a class="" href="contact.php">Contact Us</a>
             </li>
             <li class="">
-              <a class="" href="blog.html">Blog </a>
+              <a class="" href="blog.php">Blog </a>
             </li>
           </ul>
         </div>
@@ -169,13 +258,15 @@
 
   <!-- end info section -->
 
+
   <!-- footer section -->
   <section class="container-fluid footer_section ">
     <div class="container">
       <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved.
+        &copy; <span id="displayYear"></span> Innocanto Perfume. All Rights Reserved. 
       </p>
-
+       <!-- Design by
+        <a href="https://html.design/">GARCIA</a> -->
     </div>
   </section>
   <!-- end  footer section -->
