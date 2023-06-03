@@ -44,6 +44,10 @@
     text-align: center;
   }
 
+  .slider_section .detail-box h1 {
+    font-size: 3.5rem;
+  }
+
   .slider_section .carousel_btn-container {
     margin-bottom: 45px;
   }
@@ -99,7 +103,7 @@
   }
 
   .slider_section .detail-box h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   .client_section .carousel-control-prev,
@@ -145,7 +149,7 @@
   }
 
   .slider_section .detail-box h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
 }
