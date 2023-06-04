@@ -46,7 +46,7 @@
                 <button class="btn   my-sm-0 nav_search-btn" type="submit"></button>
               </form>
              -->
-              <a href="contact.html">
+              <a href="contact.php">
                 <img src="images/icons8-mail-30.png" alt="Email us">
               </a>
             </div>
