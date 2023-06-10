@@ -150,9 +150,9 @@
             <h5>
               Katy Perry-MEOW!
             </h5>
-            <!-- <h4>
+            <h4>
               <span>₱</span>0.00
-            </h4> -->
+            </h4>
           </div>
         </div>
         <div class="box">
@@ -163,9 +163,9 @@
             <h5>
               Incanto Shine
             </h5>
-            <!-- <h4>
+            <h4>
               <span>₱</span>0.00
-            </h4> -->
+            </h4>
           </div>
         </div>
         <div class="box">
@@ -176,9 +176,9 @@
             <h5>
               Vanilla Lace
             </h5>
-            <!-- <h4>
+            <h4>
               <span>₱</span>0.00
-            </h4> -->
+            </h4>
           </div>
         </div>
       <div class="btn-box">
@@ -391,99 +391,6 @@
   </section>
 
   <!-- end blog section  -->
-
-   <!-- client section
-
-  <section class="client_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          Customer's Testimonial
-        </h2>
-      </div>
-      <div id="carouselExample3Controls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="box">
-              <div class="img_container">
-                <div class="img-box">
-                  <div class="img_box-inner">
-                    <img src="images/client.jpg" alt="">
-                  </div>
-                </div>
-              </div>
-              <div class="detail-box">
-                <h5>
-                  Hingaroo
-                </h5>
-                <h6>
-                  Dealer
-                </h6>
-                <p>
-                  Potential Clients are pouring our website on a daily basis after we use Organic Visit, really recommended their great job!
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="box">
-              <div class="img_container">
-                <div class="img-box">
-                  <div class="img_box-inner">
-                    <img src="images/client.jpg" alt="">
-                  </div>
-                </div>
-              </div>
-              <div class="detail-box">
-                <h5>
-                  Hingaroo
-                </h5>
-                <h6>
-                  Dealer
-                </h6>
-                <p>
-                  Potential Clients are pouring our website on a daily basis after we use Organic Visit, really recommended their great job!
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="box">
-              <div class="img_container">
-                <div class="img-box">
-                  <div class="img_box-inner">
-                    <img src="images/client.jpg" alt="">
-                  </div>
-                </div>
-              </div>
-              <div class="detail-box">
-                <h5>
-                  Hingaroo
-                </h5>
-                <h6>
-                  Dealer
-                </h6>
-                <p>
-                  Potential Clients are pouring our website on a daily basis after we use Organic Visit, really recommended their great job!
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExample3Controls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExample3Controls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-
-    </div>
-  </section>
-
- end client section   -->
 
    <!-- contact section -->
 

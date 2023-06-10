@@ -37,7 +37,7 @@
               Innocanto
             </span>
           </a>
-          <!-- SEARCH 
+          <!-- SEARCH -->
           <div class="" id="">
             <div class="User_option">
               
@@ -45,11 +45,7 @@
                 <input type="search" placeholder="Search">
                 <button class="btn   my-sm-0 nav_search-btn" type="submit"></button>
               </form>
-            
-              <a href="">
-                <img src="images/bag.png" alt="">
-              </a>
-            </div>-->
+            </div>
 
             <div class="custom_menu-btn">
               <button onclick="openNav()">
@@ -98,9 +94,9 @@
             <h5>
               Katy Perry-MEOW!
             </h5>
-            <!-- <h4>
+            <h4>
               <span>₱</span>0.00
-            </h4> -->
+            </h4>
           </div>
         </div>
         <div class="box">
@@ -111,9 +107,9 @@
             <h5>
               Incanto Shine
             </h5>
-            <!-- <h4>
+            <h4>
               <span>₱</span>0.00
-            </h4> -->
+            </h4>
           </div>
         </div>
         <div class="box">
@@ -124,9 +120,9 @@
             <h5>
               Vanilla Lace
             </h5>
-            <!-- <h4>
+            <h4>
               <span>₱</span>0.00
-            </h4> -->
+            </h4>
           </div>
         </div>
         <div class="box">
@@ -137,9 +133,9 @@
             <h5>
               Guess Men
             </h5>
-            <!-- <h4>
+            <h4>
               <span>₱</span>0.00
-            </h4> -->
+            </h4>
           </div>
         </div>
         <div class="box">
@@ -150,9 +146,9 @@
             <h5>
               Guess Women
             </h5>
-            <!-- <h4>
+            <h4>
               <span>₱</span>0.00
-            </h4> -->
+            </h4>
           </div>
         </div>
         <div class="box">
@@ -163,17 +159,17 @@
             <h5>
               Bvlgari Omnia Amethyste
             </h5>
-            <!-- <h4>
+            <h4>
               <span>₱</span>0.00
-            </h4> -->
+            </h4>
           </div>
         </div>
       </div>
-      <div class="btn-box">
+      <!-- <div class="btn-box">
         <a href="">
           See More
         </a>
-      </div>
+      </div> -->
     </div>
   </section>
 
