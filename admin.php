@@ -446,6 +446,18 @@
             </a>
           </div>
         </div>
+        <div class="info_social-container">
+        <h5>
+          Follow Us
+        </h5>
+        <div class="info_social">
+          <div>
+            <a href="https://www.facebook.com/innocanto.perfume">
+              <img src="images/facebook-logo-button.png" alt="Innocanto Facebook page">
+            </a>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
   </section>

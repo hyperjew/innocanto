@@ -183,25 +183,6 @@
 
   <section class="info_section layout_padding">
     <div class="container">
-      <div class="info_social-container">
-        <h5>
-          Follow Us
-        </h5>
-        <div class="info_social">
-          <div>
-            <a href="https://www.facebook.com/innocanto.perfume">
-              <img src="images/facebook-logo-button.png" alt="">
-            </a>
-          </div>
-          <!-- <div>
-            <a href="">
-              <img src="images/instagram.png" alt="">
-            </a>
-          </div> -->
-        </div>
-      </div>
-    </div>
-    <div class="container">
       <div class="row">
         <div class="col-md-3">
           <h6>
@@ -252,8 +233,20 @@
             </a>
           </div>
         </div>
+        <div class="info_social-container">
+        <h5>
+          Follow Us
+        </h5>
+        <div class="info_social">
+          <div>
+            <a href="https://www.facebook.com/innocanto.perfume">
+              <img src="images/facebook-logo-button.png" alt="Innocanto Facebook page">
+            </a>
+          </div>
+        </div>
       </div>
     </div>
+  </div>
   </section>
 
   <!-- end info section -->
