@@ -95,7 +95,7 @@
               Katy Perry-MEOW!
             </h5>
             <h4>
-              <span>₱</span>0.00
+              <span>₱</span>175.00
             </h4>
           </div>
         </div>
@@ -108,7 +108,7 @@
               Incanto Shine
             </h5>
             <h4>
-              <span>₱</span>0.00
+              <span>₱</span>175.00
             </h4>
           </div>
         </div>
@@ -121,7 +121,7 @@
               Vanilla Lace
             </h5>
             <h4>
-              <span>₱</span>0.00
+              <span>₱</span>175.00
             </h4>
           </div>
         </div>
@@ -134,7 +134,7 @@
               Guess Men
             </h5>
             <h4>
-              <span>₱</span>0.00
+              <span>₱</span>175.00
             </h4>
           </div>
         </div>
@@ -147,7 +147,7 @@
               Guess Women
             </h5>
             <h4>
-              <span>₱</span>0.00
+              <span>₱</span>175.00
             </h4>
           </div>
         </div>
@@ -160,7 +160,7 @@
               Bvlgari Omnia Amethyste
             </h5>
             <h4>
-              <span>₱</span>0.00
+              <span>₱</span>175.00
             </h4>
           </div>
         </div>
