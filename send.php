@@ -10,6 +10,7 @@ if(isset($_POST['send'])){
 
     $name = $_POST['name'];
     $email = $_POST['email'];
+    $subject = $_POST['subject'];
 
     $mail = new PHPMailer(true);
     $mail->SMTPDebug = 0;
@@ -21,19 +22,19 @@ if(isset($_POST['send'])){
     $mail->Username = 'Innocantoscents@gmail.com';
     $mail->Password = 'lficqbrqorbmepfg';
 
-    $mail->Subject = $_POST['name'];
+    $mail->Subject = $_POST['subject'];
     $mail->setFrom('Innocantoscents@gmail.com', 'Innocanto');
     $mail->isHTML(true);
 
     $mail->Body = $_POST['message'];
-    $mail->addAddress('Innocantoscents@gmail.com');
+    $mail->addAddress('Innocantoscents@gmail.com', $_POST['email']);
 
     // Send the email to the business email
     if($mail->send()){
         // Send an automatic response to the user
         $mail->clearAddresses();
         $mail->addAddress($_POST["email"]);
-        $mail->Subject = 'Feedback/Concern';
+        $mail->Subject = $subject;
         $mail->Body = 'Dear ' . $_POST['name'] . ',<br><br>Your feedback/concern was sent. We will see to it that we respond to you as soon as we can.<br><br>Warm Wishes,<br>Innocanto Perfume';
         
         $mail->send();

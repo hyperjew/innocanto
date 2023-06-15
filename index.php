@@ -410,6 +410,14 @@
             <div>
               <input type="email" name="email" placeholder="Email" required/>
             </div>
+            <div class="form-group">
+              <select class="form-control text-muted" name="subject" id="subject" required>
+                  <option value="" class="text-muted">Select Subject</option>
+                  <option value="Feedbacks/Concerns" class="text-muted">Feedbacks/Concerns</option>
+                  <option value="Suggestions" class="text-muted">Suggestions</option>
+                  <option value="Inquiries" class="text-muted">Inquiries</option>
+              </select>
+          </div>
             <div>
               <input type="text" name="message" class="message-box" placeholder="Message" />
             </div>
